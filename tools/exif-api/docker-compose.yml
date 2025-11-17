@@ -1,0 +1,10 @@
+services:
+  exif-api:
+    # Construit l'image locale définie dans le Dockerfile
+    build: .
+    # Expose l'API sur http://localhost:8000
+    ports:
+      - "8000:8000"
+    # Monte le code FastAPI en lecture seule pour permettre le dev sans rebuild
+    volumes:
+      - ./app:/app/app:ro

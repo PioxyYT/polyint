@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/PioxyYT/polyint#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "next": "^14.2.33",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/node": "^24.10.0",
     "@types/react": "19.2.2",
+    "tsx": "^4.20.6",
     "typescript": "5.9.3"
   }
 }
